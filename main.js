@@ -1,4 +1,4 @@
-document.body.on("touchmove", onScroll);
+document.body.addEventListener("touchmove", onScroll);
 window.addEventListener("scroll", onScroll);
 
 function onScroll() {
