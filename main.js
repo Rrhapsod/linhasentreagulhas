@@ -1,3 +1,5 @@
+const navigation = document.getElementById('navigation')
+
 document.body.addEventListener("touchmove", onScroll);
 window.addEventListener("scroll", onScroll);
 
